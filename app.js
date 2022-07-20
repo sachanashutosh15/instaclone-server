@@ -4,7 +4,7 @@ const multer = require('multer');
 const mongoose = require('mongoose');
 const { postsModel } = require('./models');
 
-mongoose.connect("mongodb+srv://cluster0.agcck.mongodb.net/instaclone")
+mongoose.connect('mongodb+srv://sachanashutosh15:Ashutosh_99@cluster0.agcck.mongodb.net/?retryWrites=true&w=majority')
 .then(() => {
   console.log('Successfully connected to database...')
 })
